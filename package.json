@@ -1,7 +1,7 @@
 {
-  "name": "mamove",
+  "name": "mozart",
   "version": "1.0.0",
-  "description": "mamove web service",
+  "description": "mozart web service",
   "main": "index.js",
   "private": true,
   "dependencies": {
@@ -17,7 +17,6 @@
     "express-validator": "^6.4.0",
     "moment": "^2.24.0",
     "mongoose": "^5.9.4",
-    "mongoose-unique-validator": "^2.0.3",
     "morgan": "^1.9.1",
     "mysql2": "^2.1.0",
     "passport": "^0.4.0",
