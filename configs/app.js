@@ -1,5 +1,4 @@
 require('dotenv').config({ path: `./.env.${process.env.NODE_ENV}` })
-console.log('process.env.SECRET: ', process.env.NODE_ENV)
 const config = {
   hostname: require('os').hostname(),
   port: process.env.PORT || 3000,
@@ -8,7 +7,7 @@ const config = {
   isProduction: process.env.NODE_ENV === 'production',
   apiVersion: process.env.API_VERSION || 1,
   tokenExpDays: process.env.TOKEN_EXP_DAYS || 1,
-  secret: process.env.SECRET,
+  secret: process.env.SECRET || 'secret',
   mongodbUri: process.env.MONGODB_URI,
   limitPage: process.env.LIMIT_PAGE || 15,
   dbUsername: process.env.DB_USERNAME,
