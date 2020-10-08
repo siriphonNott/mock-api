@@ -28,7 +28,7 @@
   },
   "scripts": {
     "dev": "NODE_ENV=development.local nodemon .",
-    "start": "NODE_ENV=production node ."
+    "start": "node index.js"
   },
   "engines": {
     "node": "10.x"
