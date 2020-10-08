@@ -31,8 +31,7 @@
     "dev": "NODE_ENV=development.local nodemon .",
     "start": "NODE_ENV=production node ."
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/siriphonNott/mamove.git"
+  "engines": {
+    "node": "10.x"
   }
 }
